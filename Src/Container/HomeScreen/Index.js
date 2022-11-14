@@ -17,4 +17,4 @@ export const home = ({navigation}) => {
             </View>
         </View>
   )
-}
+}    
