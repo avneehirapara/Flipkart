@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Image, TextInput } from 'reac
 import React from 'react'
 import { useState } from 'react'
 import Feather from 'react-native-vector-icons/Feather';
-import { colors } from "../Theme/Color";
+
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 export const ForgetPassword = ({ navigation }) => {

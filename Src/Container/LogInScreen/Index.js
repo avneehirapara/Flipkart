@@ -7,8 +7,8 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useState } from 'react';
-import { colors } from '../Theme/Color';
-import Images from '../Theme/Images';
+import { colors } from '../../Theme/Color';
+import Images from '../../Theme/Images';
 
 export const LogIn =({navigation}) => {
   
