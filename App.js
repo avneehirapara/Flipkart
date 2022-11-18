@@ -6,6 +6,7 @@ import { ForgetPassword } from './Src/Container/ForgetPasswordScreen/Index'
 import { NavigationContainer } from '@react-navigation/native';
 import { LogInStack } from './Src/Componet/NavigationRute/StackNavigation'
 import { OTP } from './Src/Container/OTPScreen/Index'
+import { MyAccount } from './Src/Container/MyAcount/Index'
 
 
 export default function App() {
@@ -14,8 +15,9 @@ export default function App() {
       {/* <LogIn /> */}
       {/* <SignUp /> */}
       {/* <ForgetPassword /> */}
-      <LogInStack />
+      {/* <LogInStack /> */}
       {/* <OTP /> */}
+      <MyAccount />
       </NavigationContainer>
   )
 }
